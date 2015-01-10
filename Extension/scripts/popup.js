@@ -6,7 +6,8 @@ $(document).ready(function() {
             url: 'http://127.0.0.1:9393/',
         })
         .success(function(data) {
-            console.dir(data);
+            //console.dir(data);
+            $('#loading').remove();
             $('#quote').append(data);
             /*var pic = "<ul>",
                 length = lengthOfHash(data['data']['children']),
