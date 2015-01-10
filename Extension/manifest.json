@@ -18,5 +18,5 @@
     "default_title": "Random quotes",
     "default_popup": "popup.html"
   },
-  "permissions": ["http://127.0.0.1:9393/"]
+  "permissions": ["hacktavist-quotesfromdal.rhcloud.com"]
 }
